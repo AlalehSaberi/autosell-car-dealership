@@ -1,0 +1,99 @@
+.allCars-footer {
+  position: relative;
+  width: auto;
+  height: 330px;
+  margin-top: -130px;
+  /* border: 1px solid yellow; */
+  background: url("../assets/images/slider211.png") no-repeat 50% 100%;
+  background-size: 100%;
+  /* z-index: -1;  */
+
+  display: flex;
+  justify-content: center;
+}
+.allCars-footer::before {
+  display: block;
+  content: "";
+  width: 100%;
+  height: 117px;
+  /* border: 1px solid red; */
+  background-image: linear-gradient(to top, #151515, rgba(0, 0, 0, 0.1));
+}
+.footer-social-media {
+  position: absolute;
+  left: 80px;
+  top: 165px;
+  width: 160px;
+  height: 95px;
+  /* border: 1px solid red; */
+  background: url("../assets/images/logobase1.png") no-repeat 50% 10%;
+  background-size: contain;
+
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-end;
+}
+.footer-social-media-item {
+  width: 25px;
+  height: 25px;
+  /* border: 1px solid green; */
+}
+.footer-social-media-item.tel {
+  background: url("../assets/images/telegram.png") no-repeat 50% 50%;
+  background-size: 85%;
+}
+.footer-social-media-item.whatsapp {
+  background: url("../assets/images/whatsapp.png") no-repeat 50% 50%;
+  background-size: 90%;
+}
+.footer-social-media-item.insta {
+  background: url("../assets/images/insta.png") no-repeat 50% 50%;
+  background-size: 80%;
+}
+
+.footer-item-holder {
+  position: absolute;
+  padding: 0;
+  margin: 155px auto;
+  margin-right: 40px;
+  width: 430px;
+  height: 120px;
+  /* border: 1px solid green; */
+  list-style: none;
+  color: #fff;
+  font-size: 12px;
+  display: flex;
+}
+.footer-items {
+  width: 160px;
+  height: 100%;
+  /* border: 1px solid red; */
+  margin: 0 5px;
+
+  display: flex;
+  flex-direction: column;
+}
+.items-text {
+  width: 90%;
+  height: 20px;
+  display: block;
+  /* border: 1px solid green; */
+  font-family: sht;
+  margin: 2px auto;
+  font-size: 14px;
+  cursor: pointer;
+}
+.items-text > a {
+  text-decoration: none;
+  color: #fff;
+}
+.copy-right {
+  position: absolute;
+  width: 350px;
+  height: 20px;
+  /* border: 1px solid #ccc; */
+  bottom: 0;
+  font-size: 12px;
+  color: #888;
+  text-align: center;
+}

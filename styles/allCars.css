@@ -1,0 +1,214 @@
+* {
+  margin: 0;
+  padding: 0;
+  direction: rtl;
+}
+.allCars {
+  position: relative;
+  z-index: 10000;
+  width: 1366px;
+  height: auto;
+  margin: 0 auto;
+  background: rgb(0, 0, 0);
+  background-size: 100%;
+  font-family: sh;
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+}
+.allCars-content {
+  /* border: 1px solid #ccc; */
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  margin: 10px auto;
+  width: 78%;
+  z-index: 0;
+}
+
+.filter-box-holder {
+  position: relative;
+  width: 100%;
+  height: 35px;
+  /* border: 1px solid #ccc; */
+  z-index: 2;
+  display: flex;
+  margin: 0px auto;
+  margin-bottom: 40px;
+  z-index: 10;
+}
+.filter-items {
+  padding-top: 0;
+  border: 1px solid transparent;
+}
+.search-box {
+  display: flex;
+  width: 350px;
+  border-radius: 10px 40px 40px 10px;
+  background-color: #888;
+  font-size: 13px;
+  font-family: shm;
+  text-indent: 15px;
+  margin-left: 2px;
+  color: #eee;
+}
+.search-box::placeholder {
+  color: #eee;
+}
+.search-box:focus {
+  outline: none;
+  background-color: #666;
+  color: #fff;
+}
+
+.search-btn {
+  width: 55px;
+  background: #888 url("../assets/images/search.png") no-repeat 50% 50%;
+  background-size: 35%;
+  border-radius: 40px 10px 10px 40px;
+  margin-right: 2px;
+  cursor: pointer;
+}
+
+/* cars list */
+
+.cars-list {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  /* border: 1px solid #ccc; */
+  width: 100%;
+}
+.cars-list-item:nth-child(1) {
+  margin-top: 0;
+}
+.cars-list-item {
+  width: 100%;
+  height: 220px;
+  /* border: 1px solid green; */
+  margin: 10px 0;
+  border-radius: 20px;
+  background-color: #eee;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+}
+.car-img {
+  height: 100%;
+}
+.car-info {
+  position: relative;
+  /* border: 1px solid blueviolet; */
+  height: 100%;
+  width: 75%;
+  border-radius: 0 20px 20px 0;
+  background-color: #eee;
+  z-index: 0;
+}
+.car-name {
+  position: absolute;
+  width: 250px;
+  /* border: 1px solid blue; */
+  right: 35px;
+  top: 27px;
+  color: #333;
+
+  font-weight: 700;
+}
+.car-dist-model-color {
+  position: absolute;
+  width: 250px;
+  /* border: 1px solid blue; */
+  right: 35px;
+  top: 80px;
+  display: flex;
+  align-items: center;
+  color: #222;
+  font-size: 18px !important;
+}
+.car-dist-model-color > h5 {
+  padding: 2px 10px;
+  border-left: 1px solid #555;
+}
+.car-dist-model-color :first-child {
+  padding-right: 1px;
+}
+.car-dist-model-color :last-child {
+  border-left: none;
+}
+.car-address {
+  position: absolute;
+  width: 250px;
+  /* border: 1px solid blue; */
+  right: 35px;
+  top: 110px;
+  display: flex;
+  align-items: center;
+  color: #222;
+  font-size: 18px !important;
+}
+.call-seller {
+  position: absolute;
+  width: 100px;
+  height: 30px;
+  border: 1px solid #333;
+  right: 35px;
+  top: 160px;
+  display: flex;
+  align-items: center;
+  color: #222;
+  font-size: 14px;
+  padding: 3px 20px;
+  border-radius: 5px;
+  background: url("../assets/images/phone.png") no-repeat 20% 50%;
+  background-size: 20%;
+  cursor: pointer;
+}
+.call-seller:hover {
+  color: blue;
+  border: 1px solid blue;
+  background-image: url("../assets/images/iphone-64.png");
+}
+.car-info-fav-icon {
+  position: absolute;
+  width: 35px;
+  height: 35px;
+  /* border: 1px solid blue; */
+  left: 35px;
+  top: 25px;
+  background: url("../assets/images/heart21.png") no-repeat 50% 50%;
+  background-size: contain;
+  cursor: pointer;
+}
+
+.car-price {
+  position: absolute;
+  width: 165px;
+  height: 30px;
+  /* border: 1px solid blue; */
+  left: 35px;
+  top: 160px;
+  line-height: 30px;
+  font-family: shb;
+  font-size: 18px;
+}
+
+.more-car-btn {
+  position: relative;
+  display: block;
+  width: 150px;
+  height: auto;
+  padding: 7px 0;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  margin: 50px auto;
+  color: #ccc;
+  text-align: center;
+  cursor: pointer;
+  transition: 0.2s;
+}
+.more-car-btn:hover {
+  color: #222;
+  background-color: #ccc;
+  font-family: shb;
+}

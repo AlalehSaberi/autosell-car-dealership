@@ -1,0 +1,230 @@
+.allCars-header {
+  position: relative;
+  /* border: 1px solid #ccc; */
+  width: 100%;
+  height: 350px;
+  background: url("../assets/images/Group121212.png") no-repeat 50% 50%;
+  background-size: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.allCars-header::after {
+  position: absolute;
+  display: block;
+  content: "";
+  width: 100%;
+  height: 100px;
+  bottom: -10px;
+  /* border: 1px solid #ccc; */
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.05), #000);
+}
+.logo {
+  display: block;
+  /* border: 1px solid #ccc; */
+  height: 90px;
+  width: 230px;
+  background: url("../assets/images/logo.png") no-repeat 50% 50%;
+  background-size: cover;
+  margin: 80px auto;
+  margin-bottom: 0px;
+}
+.allCars-menu-holder {
+  position: relative;
+  width: 78%;
+  height: 45px;
+  top: 50px;
+  /* border: 1px solid #ccc; */
+  z-index: 5;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.allCars-menu {
+  position: absolute;
+  width: auto;
+  height: 35px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: #fff;
+  right: 0px;
+  font-size: 12px;
+  list-style: none;
+  /* border: 1px solid #ccc; */
+}
+.allCars-menu-item {
+  display: flex;
+  border: 1px solid transparent;
+  padding: 3px 5px;
+  margin: 0 5px;
+  border-radius: 5px;
+  transition: 0.2s;
+  cursor: pointer;
+  z-index: 10;
+}
+.allCars-menu-item > a {
+  text-decoration: none;
+  color: #fff;
+}
+.allCars-menu-item:hover {
+  display: flex;
+  border: 1px solid #ccc;
+}
+.link {
+  text-decoration: none;
+  color: #fff;
+}
+.allCars-acc-fav-holder {
+  position: absolute;
+  left: 0px;
+  width: 150px;
+  height: 32px;
+  /* border: 1px solid #ccc; */
+}
+.log-reg {
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 90px;
+  height: 100%;
+  /* border: 1px solid green; */
+  font-size: 13px;
+  right: 0;
+  list-style: none;
+}
+.log-reg-item {
+  padding: 3px 5px;
+  border: 1px solid transparent;
+  border-radius: 5px;
+  transition: 0.2s;
+  cursor: pointer;
+}
+.log-reg-item:hover {
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+.favorite {
+  position: absolute;
+  left: 0;
+  top: -1px;
+  display: flex;
+  align-items: center;
+  width: 40px;
+  height: 100%;
+  /* border: 1px solid red; */
+  background: url("../assets/images/heart-13.png") no-repeat 50% 0%;
+  background-size: 78%;
+}
+.fav-count {
+  display: block;
+  width: 14px;
+  height: 14px;
+  border-radius: 8px;
+  margin: 3px;
+  margin-top: 20px;
+  background-color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 10px;
+  font-weight: bold;
+}
+.account {
+  position: absolute;
+  display: none;
+  width: 65px;
+  height: 100%;
+  /* border: 1px solid chocolate; */
+  right: 25px;
+  background: url("../assets/images/iacc.png") no-repeat 10% 55%;
+  background-size: 48%;
+  transition: 1s;
+}
+.acc-arrow {
+  display: block;
+  width: 12px;
+  height: 12px;
+  /* border: 1px solid #ccc; */
+  margin: 10px 5px 5px 0px;
+  background: url("../assets/images/arrow-down.png") no-repeat 50% 50%;
+  transition: 0.3s;
+}
+.account:hover .acc-arrow {
+  background: url("../assets/images/arrow-up.png") no-repeat 50% 50%;
+}
+.acc-box {
+  position: absolute;
+  width: 230px;
+  height: 100px;
+  top: 36px;
+  left: 5px;
+  background-color: #fff;
+  border-radius: 10px;
+  display: none;
+  font-size: 13px;
+  color: #333;
+}
+.acc-box-title {
+  width: 180px;
+  margin: 0px auto;
+  text-align: center;
+  padding-bottom: 5px;
+  padding-top: 15px;
+  border-bottom: 1px solid #ccc;
+}
+
+.account:hover .acc-box {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  transition: 1s;
+}
+
+.acc-btn-holder {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  height: 50px;
+  margin: 10px 0;
+  /* border: 1px solid green; */
+}
+.acc-log-out {
+  display: flex;
+  align-items: center;
+  font-weight: bold;
+  width: 65px;
+  height: 30px;
+  margin: 0px 5px;
+  font-size: 13px;
+  border-radius: 50px;
+  padding-right: 8px;
+  cursor: pointer;
+  border: 2px solid #ccc;
+  background: url("../assets/images/logOut.png") no-repeat 15% 50%;
+  background-size: 28%;
+  transition: 0.3s;
+}
+.acc-log-out:hover {
+  color: rgb(169, 13, 13);
+  border-color: #555;
+  border-width: 2px;
+}
+.acc-panel {
+  width: 120px;
+  background: none;
+  justify-content: center;
+  padding-right: 0px;
+  border: 2px solid #333;
+  margin-right: 5px;
+  transition: 0.2s;
+}
+.acc-panel:hover {
+  color: #fff;
+  background-color: #333;
+  font-weight: normal;
+  border-color: transparent;
+}

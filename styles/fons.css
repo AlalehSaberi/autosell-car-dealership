@@ -1,0 +1,20 @@
+@font-face {
+  font-family: sh;
+  src: url("../assets/fonts/Shabnam.ttf");
+}
+@font-face {
+  font-family: shb;
+  src: url("../assets/fonts/Shabnam-Bold.ttf");
+}
+@font-face {
+  font-family: sht;
+  src: url("../assets/fonts/Shabnam-Thin.ttf");
+}
+@font-face {
+  font-family: shl;
+  src: url("../assets/fonts/Shabnam-Light.ttf");
+}
+@font-face {
+  font-family: shm;
+  src: url("../assets/fonts/Shabnam-Medium.ttf");
+}

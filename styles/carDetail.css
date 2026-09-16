@@ -1,0 +1,169 @@
+* {
+  margin: 0;
+  padding: 0;
+  direction: rtl;
+}
+.carDetail {
+  position: relative;
+  z-index: 100;
+  width: 1366px;
+  height: auto;
+  margin: 0 auto;
+  background: rgb(0, 0, 0);
+  background-size: 100%;
+  font-family: sh;
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+}
+.carDetail-content {
+  position: relative;
+  /* border: 1px solid #ccc; */
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  margin: 10px auto;
+  width: 78%;
+  height: 680px;
+  z-index: 1;
+}
+
+.gridView-holder {
+  position: absolute;
+  top: 50px;
+  left: 0;
+  /* border: 1px solid #ccc; */
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+  width: 470px;
+  height: 370px;
+}
+.big-pic-holder {
+  /* border: 1px solid green; */
+  width: 100%;
+  height: 290px;
+  border-radius: 10px;
+  overflow: hidden;
+}
+.big-pic {
+  width: 100%;
+  height: 100%;
+}
+.gridView-img-holder {
+  /* border: 1px solid green; */
+  width: 100%;
+  height: 70px;
+  margin-top: 18px;
+  display: flex;
+  justify-content: space-between;
+}
+.gridView-img {
+  /* border: 1px solid green; */
+  position: relative;
+  border-radius: 5px;
+  height: 92%;
+  overflow: hidden;
+  opacity: 0.8;
+}
+
+.gridView-img > img {
+  width: 100%;
+  height: 100%;
+}
+
+.d-car-name,
+.d-car-model,
+.d-car-dist,
+.d-car-color,
+.d-car-dec,
+.d-car-price,
+.d-car-address,
+.d-call-seller,
+.d-car-info-fav-icon {
+  position: absolute;
+  /* border: 1px solid green; */
+  color: #fff;
+}
+
+.d-car-name {
+  top: 50px;
+}
+.d-car-model {
+  top: 120px;
+}
+.d-car-dist {
+  top: 120px;
+  right: 250px;
+}
+.d-car-color {
+  top: 120px;
+  right: 120px;
+}
+.d-car-address {
+  top: 175px;
+  font-size: 17px;
+}
+.d-car-dec {
+  top: 245px;
+  width: 420px;
+  height: auto;
+  max-height: 170px;
+  line-height: 35px;
+  font-size: 15px;
+}
+.d-call-seller {
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 4px 30px;
+  padding-left: 50px;
+  top: 480px;
+  font-size: 15px;
+  background: url("../assets/images/icons-33.png") no-repeat 15% 50%;
+  background-size: 10%;
+  cursor: pointer;
+  transition: 0.3s;
+  color: #fff;
+  text-decoration: none;
+}
+.d-call-seller:hover {
+  background-color: #fff;
+  color: #222;
+  font-weight: bold;
+  background-image: url("../assets/images/phone-50.png");
+  background-size: 10%;
+}
+.d-car-info-fav-icon {
+  width: 35px;
+  height: 35px;
+  top: 475px;
+  right: 250px;
+  background: url("../assets/images/heart-16.png") no-repeat 50% 50%;
+  background-size: contain;
+  cursor: pointer;
+}
+.d-car-price {
+  top: 480px;
+  font-size: 22px;
+  left: 0;
+}
+.return-btn {
+  position: absolute;
+  /* border: 1px solid #ccc; */
+  color: #fff;
+  text-decoration: none;
+  font-size: 13px;
+  width: 60px;
+  bottom: 50px;
+  right: 520px;
+  background: url("../assets/images/icons-31.png") no-repeat 5% 50%;
+  background-size: 10px;
+  transition: 0.2s;
+}
+.return-btn:hover {
+  color: #777;
+}
+
+.opacity {
+  opacity: 1;
+}

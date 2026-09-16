@@ -1,0 +1,9 @@
+.log-form-holder {
+  width: 370px;
+  height: 240px;
+  /* border: 1px solid red; */
+  display: block;
+  margin: 190px 90px;
+  background-color: #eeeeee;
+  border-radius: 25px;
+}

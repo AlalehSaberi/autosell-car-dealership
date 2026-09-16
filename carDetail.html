@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>جزییات ماشین ها</title>
+    <link rel="icon" href="./assets/favicon33.png" />
+    <link rel="stylesheet" href="./styles/fons.css" />
+    <link rel="stylesheet" href="./styles/carDetail.css" />
+    <link rel="stylesheet" href="./styles/allCars-header.css">
+    <link rel="stylesheet" href="./styles/allCars-footer.css">
+</head>
+
+<body>
+    <div class="carDetail">
+        <header class="allCars-header">
+            <span class="logo"></span>
+            <div class="allCars-menu-holder">
+                <ul class="allCars-menu">
+                    <li class="allCars-menu-item"><a class="link" href="./index.html">صفحه اصلی</a></li>
+                    <li class="allCars-menu-item">قیمت روز خودرو</li>
+                    <li class="allCars-menu-item">خرید سفارشی</li>
+                    <li class="allCars-menu-item">درباره ما</li>
+                </ul>
+                <div class="allCars-acc-fav-holder">
+                    <ul class="log-reg">
+                        <li class="log-reg-item"><a class="link" href="./login.html">ورود</a></li>
+                        <li class="log-reg-item"><a class="link" href="./register.html">عضویت</a>
+                        </li>
+                    </ul>
+                    <div class="account">
+                        <span class="acc-arrow"></span>
+                        <div class="acc-box">
+                            <h4 class="acc-box-title">آلاله عزیز ، خوش آمدید</h4>
+                            <div class="acc-btn-holder">
+                                <span class="acc-log-out acc-panel">پنل کاربری</span>
+                                <span class="acc-log-out">خروج</span>
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="favorite"><span class="fav-count">1</span></div>
+                </div>
+            </div>
+        </header>
+
+        <content class="carDetail-content">
+            <div class="gridView-holder">
+                <div class="big-pic-holder">
+                    <img src="./assets/images/1_1.jpg" alt="car-img" class="big-pic" id="main_img">
+                </div>
+                <div class="gridView-img-holder" id="gridViewHolder">
+                    <div class="gridView-img" onclick="show(this)">
+                        <img src="./assets/images/18_1.png" alt="car-img">
+                    </div>
+                    <div class="gridView-img" onclick="show(this)">
+                        <img src="./assets/images/20_1.png" alt="car-img">
+                    </div>
+                    <div class="gridView-img" onclick="show(this)">
+                        <img src="./assets/images/28_1.png" alt="car-img">
+                    </div>
+                    <div class="gridView-img" onclick="show(this)">
+                        <img src="./assets/images/1_1.jpg" alt="car-img">
+                    </div>
+                </div>
+            </div>
+            <h2 class="d-car-name">استون مارتین DBX</h2>
+            <span class="d-car-model">2021</span>
+            <span class="d-car-color">قرمز</span>
+            <span class="d-car-dist">76000 کیلومتر</span>
+            <p class="d-car-address">مازندران ، ساری</p>
+            <a href="./login.html" class="d-call-seller">تماس با فروشنده</a>
+            <span class="d-car-info-fav-icon" test_data="true" onclick="changeBg(this)"></span>
+            <span class="d-car-price">4,300,000,000 تومان</span>
+            <p class="d-car-dec">لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت
+                چاپ و با استفاده از طراحان گرافیک است . چاپگرها و متون
+                بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است و
+                برای شرایط فعلی تکنولوژی مورد نیاز می باشد</p>
+            <a href="./allCars.html" class="return-btn">بازگشت</a>
+        </content>
+
+        <footer class="allCars-footer">
+            <ul class="footer-item-holder">
+                <li class="footer-items">
+                    <span class="items-text">قوانین</span>
+                    <span class="items-text">تماس با ما</span>
+                    <span class="items-text"> نمایندگی ها</span>
+                    <span class="items-text">درباره ما</span>
+                </li>
+                <li class="footer-items">
+                    <span class="items-text">ارتباط با ادمین</span>
+                    <span class="items-text">سوالات متداول</span>
+                    <span class="items-text">قیمت روز خودرو</span>
+                    <span class="items-text">اخبار</span>
+                </li>
+                <li class="footer-items">
+                    <span class="items-text">نقشه سایت</span>
+                    <span class="items-text">مشاوره</span>
+                    <span class="items-text">حریم شخصی</span>
+                    <span class="items-text">پشتیبانی</span>
+                </li>
+            </ul>
+            <div class="footer-social-media">
+                <span class="footer-social-media-item tel"></span>
+                <span class="footer-social-media-item insta"></span>
+                <span class="footer-social-media-item whatsapp"></span>
+            </div>
+            <div class="copy-right"> تمامی حقوق این وبسایت متعلق به اتوسل است. 2022©</div>
+        </footer>
+    </div>
+    <script src="./js/carDetail.js"></script>
+</body>
+
+</html>

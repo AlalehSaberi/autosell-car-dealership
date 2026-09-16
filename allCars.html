@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="./assets/favicon33.png" />
+    <link rel="stylesheet" href="./styles/fons.css" />
+    <link rel="stylesheet" href="./styles/allCars.css" />
+    <link rel="stylesheet" href="./styles/allCars-header.css" />
+    <link rel="stylesheet" href="./styles/allCars-footer.css" />
+    <link rel="stylesheet" href="./styles/combo.css" />
+    <title>Auto Sell</title>
+</head>
+
+<body>
+    <Div class="allCars">
+        <header class="allCars-header">
+            <span class="logo"></span>
+            <div class="allCars-menu-holder">
+                <ul class="allCars-menu">
+                    <li class="allCars-menu-item"><a class="link" href="./index.html">صفحه اصلی</a></li>
+                    <li class="allCars-menu-item"><a href="./carDetail.html">جزئیات</a></li>
+                    <li class="allCars-menu-item">قیمت روز خودرو</li>
+                    <li class="allCars-menu-item">خرید سفارشی</li>
+                    <li class="allCars-menu-item">درباره ما</li>
+                </ul>
+                <div class="allCars-acc-fav-holder">
+                    <ul class="log-reg">
+                        <li class="log-reg-item"><a class="link" href="./login.html">ورود</a></li>
+                        <li class="log-reg-item"><a class="link" href="./register.html">عضویت</a>
+                        </li>
+                    </ul>
+                    <div class="account">
+                        <span class="acc-arrow"></span>
+                        <div class="acc-box">
+                            <h4 class="acc-box-title">آلاله عزیز ، خوش آمدید</h4>
+                            <div class="acc-btn-holder">
+                                <span class="acc-log-out acc-panel">پنل کاربری</span>
+                                <span class="acc-log-out">خروج</span>
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="favorite"><span class="fav-count">1</span></div>
+                </div>
+            </div>
+        </header>
+        <content class="allCars-content">
+            <div class="filter-box-holder">
+                <input type="text" class="filter-items search-box" placeholder="جستجو..." />
+
+
+                <div class="filter-items options colorfilter" id="options_color">
+                    <div class="hide-option option colorfilter" id="hide-option">رنگ </div>
+                </div>
+
+
+
+                <div class="filter-items options brandfilter" id="options_brand">
+                    <div class="hide-option option  brandfilter" id="hide-option">برند</div>
+                </div>
+                <div class="filter-items options costfilter " id="options_cost_from">
+                    <div class="hide-option option costfilterfrom" id="hide-option">قیمت از (تومان) </div>
+                </div>
+                <div class="filter-items options costfilter " id="options_cost_to">
+                    <div class="hide-option option costfilterto" id="hide-option">قیمت تا (تومان)</div>
+                </div>
+                <div class="filter-items search-btn"></div>
+            </div>
+            <div class="cars-list">
+                <div class="cars-list-item">
+                    <div class="car-info">
+                        <h2 class="car-name">تویوتا supra</h2>
+                        <div class="car-dist-model-color">
+                            <h5 class="car-model">2018</h5>
+                            <h5 class="car-dist">70000 کیلومتر</h5>
+                            <h5 class="car-color">زرد</h5>
+                        </div>
+                        <p class="car-address">مازندران ، ساری</p>
+                        <span class="call-seller">تماس </span>
+                        <span class="car-info-fav-icon" test_data="true" onclick="changeBg(this)"></span>
+                        <span class="car-price">4,300,000,000 تومان</span>
+                    </div>
+                    <img src="./assets/images/1_1.jpg" alt="car-img" class="car-img">
+                </div>
+                <div class="cars-list-item">
+                    <div class="car-info">
+                        <h2 class="car-name">تویوتا supra</h2>
+                        <div class="car-dist-model-color">
+                            <h5 class="car-model">2018</h5>
+                            <h5 class="car-dist">70000 کیلومتر</h5>
+                            <h5 class="car-color">زرد</h5>
+                        </div>
+                        <p class="car-address">مازندران ، ساری</p>
+                        <span class="call-seller">تماس </span>
+                        <span class="car-info-fav-icon" test_data="true" onclick="changeBg(this)"></span>
+                        <span class="car-price">4,300,000,000 تومان</span>
+                    </div>
+                    <img src="./assets/images/28_1.png" alt="car-img" class="car-img">
+                </div>
+                <div class="cars-list-item">
+                    <div class="car-info">
+                        <h2 class="car-name">تویوتا supra</h2>
+                        <div class="car-dist-model-color">
+                            <h5 class="car-model">2018</h5>
+                            <h5 class="car-dist">70000 کیلومتر</h5>
+                            <h5 class="car-color">زرد</h5>
+                        </div>
+                        <p class="car-address">مازندران ، ساری</p>
+                        <span class="call-seller">تماس </span>
+                        <span class="car-info-fav-icon" test_data="true" onclick="changeBg(this)"></span>
+                        <span class="car-price">4,300,000,000 تومان</span>
+                    </div>
+                    <img src="./assets/images/28_1.png" alt="car-img" class="car-img">
+                </div>
+                <div class="cars-list-item">
+                    <div class="car-info">
+                        <h2 class="car-name">تویوتا supra</h2>
+                        <div class="car-dist-model-color">
+                            <h5 class="car-model">2018</h5>
+                            <h5 class="car-dist">70000 کیلومتر</h5>
+                            <h5 class="car-color">زرد</h5>
+                        </div>
+                        <p class="car-address">مازندران ، ساری</p>
+                        <span class="call-seller">تماس </span>
+                        <span class="car-info-fav-icon" test_data="true" onclick="changeBg(this)"></span>
+                        <span class="car-price">4,300,000,000 تومان</span>
+                    </div>
+                    <img src="./assets/images/28_1.png" alt="car-img" class="car-img">
+                </div>
+                <div class="cars-list-item">
+                    <div class="car-info">
+                        <h2 class="car-name">تویوتا supra</h2>
+                        <div class="car-dist-model-color">
+                            <h5 class="car-model">2018</h5>
+                            <h5 class="car-dist">70000 کیلومتر</h5>
+                            <h5 class="car-color">زرد</h5>
+                        </div>
+                        <p class="car-address">مازندران ، ساری</p>
+                        <span class="call-seller">تماس </span>
+                        <span class="car-info-fav-icon" test_data="true" onclick="changeBg(this)"></span>
+                        <span class="car-price">4,300,000,000 تومان</span>
+                    </div>
+                    <img src="./assets/images/28_1.png" alt="car-img" class="car-img">
+                </div>
+
+                <span class="more-car-btn">موارد بیشتر</span>
+            </div>
+        </content>
+        <footer class="allCars-footer">
+            <ul class="footer-item-holder">
+                <li class="footer-items">
+                    <span class="items-text">قوانین</span>
+                    <span class="items-text">تماس با ما</span>
+                    <span class="items-text"> نمایندگی ها</span>
+                    <span class="items-text">درباره ما</span>
+                </li>
+                <li class="footer-items">
+                    <span class="items-text">ارتباط با ادمین</span>
+                    <span class="items-text">سوالات متداول</span>
+                    <span class="items-text">قیمت روز خودرو</span>
+                    <span class="items-text">اخبار</span>
+                </li>
+                <li class="footer-items">
+                    <span class="items-text">نقشه سایت</span>
+                    <span class="items-text">مشاوره</span>
+                    <span class="items-text">حریم شخصی</span>
+                    <span class="items-text">پشتیبانی</span>
+                </li>
+            </ul>
+            <div class="footer-social-media">
+                <span class="footer-social-media-item tel"></span>
+                <span class="footer-social-media-item insta"></span>
+                <span class="footer-social-media-item whatsapp"></span>
+            </div>
+            <div class="copy-right"> تمامی حقوق این وبسایت متعلق به اتوسل است. 2022©</div>
+        </footer>
+    </Div>
+    <script type="text/javascript" src="./js/allCars.js"></script>
+    <script type="text/javascript" src="./js/comboColor.js"></script>
+    <script type="text/javascript" src="./js/comboBrand.js"></script>
+    <script type="text/javascript" src="./js/comboCostFrom.js"></script>
+    <script type="text/javascript" src="./js/comboCostTo.js"></script>
+
+</body>
+
+</html>

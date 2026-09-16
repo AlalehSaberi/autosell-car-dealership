@@ -1,0 +1,51 @@
+.reg-form-holder {
+  width: 370px;
+  height: 480px;
+  /* border: 1px solid red; */
+  display: block;
+  margin: 70px 90px;
+  background-color: #eeeeee;
+  border-radius: 25px;
+}
+.form {
+  width: 100%;
+  height: 100%;
+  /* border: 1px solid red; */
+  display: flex;
+  flex-direction: column;
+}
+.form-title {
+  text-align: center;
+  /* border: 1px solid red; */
+  margin-top: 20px;
+  color: #333;
+  font-size: 22px;
+  margin-bottom: 20px;
+}
+.form > input {
+  margin: 7px auto;
+  width: 78%;
+  height: 32px;
+  border-radius: 30px;
+  text-indent: 20px;
+  border: none;
+  font-family: shl;
+  box-shadow: 0 2px 5px 1px #ccc;
+}
+.form > input:focus {
+  background-color: rgba(243, 243, 243, 0.9);
+  outline: none;
+}
+.form > button {
+  width: 90px;
+  height: 30px;
+  border: 2px solid #333;
+  border-radius: 15px;
+  font-family: shm;
+  margin: 20px auto;
+}
+.form > button:hover {
+  background-color: #333;
+  color: #eee;
+  cursor: pointer;
+}
